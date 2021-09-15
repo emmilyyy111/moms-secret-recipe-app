@@ -1,8 +1,14 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import recipehomepage from '../assets/recipehomepage.jpeg'
 
 const Home = () => {
+const [recipies, setRecipies] = useState('')
+
+    const handleViewClick = () => {
+        console.log(recipies)
+    }
 
     return ( 
         <div className="home">
@@ -12,7 +18,7 @@ const Home = () => {
         <h4 classname="myh4">Created with love by<br/>
         Jeannie Morgenbesser</h4>
         <br/>
-        <Button className="button" onClick='/allrecipes'> View Recipes </Button>
+        <Link to="/allrecipes"><Button className="button" onClick={handleViewClick}> View Recipes </Button></Link>
         </div>
         </div>
              );
