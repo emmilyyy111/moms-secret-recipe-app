@@ -1,7 +1,9 @@
+import { useState } from 'react';
 import { Button } from 'react-bootstrap';
 import recipehomepage from '../assets/recipehomepage.jpeg'
 
 const Home = () => {
+
     return ( 
         <div className="home">
         <img className="image" src={recipehomepage} alt="this is the recipie on the homepage" />
@@ -10,7 +12,7 @@ const Home = () => {
         <h4 classname="myh4">Created with love by<br/>
         Jeannie Morgenbesser</h4>
         <br/>
-        <Button className="button"> View Recipes </Button>
+        <Button className="button" onClick='/allrecipes'> View Recipes </Button>
         </div>
         </div>
              );
