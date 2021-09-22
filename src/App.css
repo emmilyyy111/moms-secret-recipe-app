@@ -1,5 +1,5 @@
 .header {
-  height: 125px;
+  height: 200px;
   display: flex;
   align-items: center;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -7,6 +7,7 @@
   font-size: 40px;
   background-color: rgb(71, 39, 39);
   color: rgb(77, 206, 163);
+  justify-content: space-between;
 }
 
 .home {
@@ -39,4 +40,80 @@
   color: rgb(208, 250, 236);
   font-weight: bold;
   cursor: grab;
+}
+
+.top-right {
+  padding-left: 30px;
+}
+
+.signup-header{
+  color: rgb(77, 206, 163);
+  padding-right: 75px;
+}
+
+.login-header{
+  color: rgb(77, 206, 163);
+  padding-right: 25px;
+}
+
+.signuph2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 400px;
+  background-color: #ff858545;
+  margin: 0%;
+}
+
+.signupformcontainer {
+display: flex;
+background-color: #ff858545;
+justify-content: center;
+}
+
+.signupform {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 75px;
+  padding-right: 100px;
+  color: #4b1f1f;
+  height: 600px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
+}
+
+.signup-image {
+  padding-right: 25px;
+  height: 500px;
+}
+
+.loginh2 {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 400px;
+  background-color: #ff858545;
+  margin: 0%;
+}
+
+.loginformcontainer{
+  display: flex;
+  background-color: #ff858545;
+  justify-content: center;
+}
+
+.login-image {
+  padding-right: 25px;
+  height: 500px;
+}
+
+.loginform {
+  display: flex;
+  align-items: flex-start;
+  padding-top: 75px;
+  padding-right: 100px;
+  color: #4b1f1f;
+  height: 600px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: stretch;
 }
